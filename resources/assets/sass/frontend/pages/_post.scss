@@ -1,0 +1,57 @@
+.container img {max-width: 100%}
+
+.section-divider {margin-top: 55px !important}
+
+.post-page-title {
+  color: $grey-dark;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 34px;
+  text-rendering: optimizelegibility;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.post-page-meta {
+  color: $grey-light;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  margin-top: -7px !important;
+  a {text-transform: lowercase}
+}
+
+#auth-name {margin-bottom: 2px !important}
+
+.author {
+  border: 1px solid $white-bis;
+  border-radius: 3px;
+  padding: 23px 15px 15px 15px;
+}
+
+.author-bio {
+  color: $grey-lighter !important;
+}
+
+.author-social {
+  margin-top: 5px;
+  color: $grey-lighter;
+  text-decoration: none !important;
+  a:hover {color: $grey-lighter !important}
+}
+
+.author-img {
+  float: left;
+  width: 90px;
+}
+
+#author-content {
+  overflow: hidden !important;
+  margin-top: -10px !important;
+  span {margin-top: 0 !important;}
+  i.fa {font-size: 14px}
+}
+
+.dts {
+  text-align: center;
+  span {padding: 10px}
+}

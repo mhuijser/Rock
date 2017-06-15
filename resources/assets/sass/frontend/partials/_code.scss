@@ -1,0 +1,76 @@
+pre {
+  border: none;
+  background-color: $pre-background !important;
+  border-radius: 3px !important;
+  font-size: 13px !important;
+  font-family: 'Source Code Pro' !important;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  border-radius: 3px !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.121569) 0px 1px 1px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.121569) 0px 1px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.121569) 0px 1px 1px 0px;
+
+  code {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+}
+
+code {
+  border: none;
+  background-color: $pre-background !important;
+  border-radius: 3px !important;
+  font-size: 11px !important;
+  font-family: 'Source Code Pro' !important;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  border-radius: 3px !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.121569) 0px 1px 1px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.121569) 0px 1px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.121569) 0px 1px 1px 0px;
+  padding: 0px 0px 0px 0px !important;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+h4, h5, h6 {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+h1 { font-size: 36px }
+h2 { font-size: 30px }
+h3 { font-size: 24px }
+h4 { font-size: 18px }
+h5 { font-size: 14px }
+h6 { font-size: 12px }
+
+ul { 
+  list-style: disc outside none;
+}
+
+ul, ol {
+    padding: 0px 10px 0px 25px;
+}
+
+blockquote {
+  color: $grey;
+  font-style: italic;
+  padding: 5px 0 5px 15px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid $grey-lighter;
+  p {
+    margin-top:0px;
+  }
+}

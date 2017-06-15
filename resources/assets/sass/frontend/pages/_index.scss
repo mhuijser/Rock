@@ -1,0 +1,54 @@
+.postSubtitle {margin-top: -10px;}
+
+.post-preview {
+  > a {
+    color: $primary;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: $primary;
+    }
+    > .post-title {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    > .post-subtitle {
+      margin: 0 0 10px 0;
+      font-weight: 300;
+    }
+  }
+  > .post-title {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif !important;
+  }
+  > .post-meta {
+    color: $grey-lighter;
+    font-size: 13px;
+    margin-top: -6px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    > a {
+      text-decoration: none;
+      color: $grey-dark;
+      text-transform: lowercase;
+      &:hover,
+      &:focus {
+        color: $primary;
+        text-decoration: underline;
+      }
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    > a {
+      > .post-title {font-size: 20px;}
+    }
+  }
+}
+
+.is-brand {
+  font-family: 'Unthrift First Personal' !important;
+  font-size: 60px;
+}

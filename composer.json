@@ -1,0 +1,22 @@
+{
+    "name": "mhuijser/rock",
+    "description": "Canvas theme with bulma.io as css framework",
+    "keywords": ["canvas", "theme", "rock"],
+    "type": "canvas-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Huijser",
+            "email": "mhuijser@gmail.com"
+        }
+    ],
+    "extra": {
+        "canvas-theme": {
+            "title": "Rock",
+            "directories": {
+                "public": "public",
+                "views": "resources/views"
+            }
+        }
+    }
+}
