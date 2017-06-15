@@ -1,5 +1,5 @@
-<section class="section">
-    <div class="columns" id="post">
+
+    <div class="columns">
         <div class="column is-8 is-offset-2">
             @if (isset($slug))
 
@@ -30,4 +30,3 @@
 
         </div>
     </div>
-</section>

@@ -1,8 +1,8 @@
-<div class="columns">
+<section class="section">
     @if(!empty(\Canvas\Models\Settings::disqus()))
         @include('canvas::frontend.blog.partials.disqus')
     @endif
-</div>
+</section>
 
 <section class="hero is-primary is-small is-bold">
   <!-- Hero content: will be in the middle -->
