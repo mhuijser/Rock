@@ -1,6 +1,6 @@
 <section class="section">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="columns" id="post">
+        <div class="column is-8 is-offset-2">
             @if (isset($slug))
 
                 <div id="disqus_thread"></div>
